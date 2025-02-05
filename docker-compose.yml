@@ -1,0 +1,14 @@
+name: portspoof
+
+services:
+  portspoof:
+    build: .
+    init: true
+    ports:
+      # For example usage
+      - "4444:4444"
+      - "4445:4444"
+      - "4446:4444"
+      - "4447:4444"
+      - "4448:4444"
+      - "4449:4444"
