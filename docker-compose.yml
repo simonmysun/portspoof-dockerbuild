@@ -2,7 +2,7 @@ name: portspoof
 
 services:
   portspoof:
-    build: .
+    build: https://github.com/simonmysun/portspoof-dockerbuild
     init: true
     ports:
       # For example usage
